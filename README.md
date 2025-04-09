@@ -7,8 +7,7 @@
 
 **Example**
 
-![EX](https://github.com/SouksavathPMS/lao-location-prediction/blob/main/assets/images/example.gif)
-
+![EX](https://i.postimg.cc/g0KXdk4v/example.gif)
 
 ## Key Features
 
@@ -218,7 +217,7 @@ If you find this `lao_location_prediction` package helpful and would like to sup
 
 
 **Scan the QR Code:**
-![QR](https://github.com/SouksavathPMS/lao-location-prediction/blob/main/assets/images/qr.jpg)
+![QR](https://i.postimg.cc/1t9FNN4C/qr.jpg)
 
 
 Thank you for your support! 🙏
