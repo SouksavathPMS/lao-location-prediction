@@ -6,7 +6,8 @@
 `lao_location_prediction` is a robust Dart package designed to provide fast and accurate location-based queries specifically for locations within the Lao People's Democratic Republic. Leveraging a spatial grid, this package enables developers to easily find nearby places, search within geographical boundaries, and look up locations by name, all optimized for the context of Laos.
 
 **Example**
-![QR](https://github.com/SouksavathPMS/lao-location-prediction/blob/main/assets/images/example.gif)
+
+![EX](https://github.com/SouksavathPMS/lao-location-prediction/blob/main/assets/images/example.gif)
 
 
 ## Key Features
