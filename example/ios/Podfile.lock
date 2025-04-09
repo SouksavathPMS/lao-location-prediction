@@ -1,20 +1,14 @@
 PODS:
-  - dart_ui_isolate (0.0.1):
-    - Flutter
   - Flutter (1.0.0)
 
 DEPENDENCIES:
-  - dart_ui_isolate (from `.symlinks/plugins/dart_ui_isolate/ios`)
   - Flutter (from `Flutter`)
 
 EXTERNAL SOURCES:
-  dart_ui_isolate:
-    :path: ".symlinks/plugins/dart_ui_isolate/ios"
   Flutter:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  dart_ui_isolate: 46f6714abe6891313267153ef6f9748d8ecfcab1
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
 
 PODFILE CHECKSUM: 4305caec6b40dde0ae97be1573c53de1882a07e5

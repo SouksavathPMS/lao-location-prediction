@@ -23,6 +23,7 @@ flutter:
     - assets/grid_metadata.json
     - assets/default_data.json
     - assets/cells/
+    - assets/images/qr.jpg
 
 
   

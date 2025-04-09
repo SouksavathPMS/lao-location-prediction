@@ -51,12 +51,8 @@ class SpatialGrid {
     return grid;
   }
 
-  // Loads initial data (could be just a subset for faster startup)
+  // Loads initial data
   Future<void> _loadInitialData() async {
-    // In a real implementation, you'd load the most common cells
-    // or a low-resolution version of the full dataset
-
-    // For demonstration, we'll load a test dataset
     final String jsonData = await rootBundle.loadString(
       'packages/lao_location_prediction/assets/default_data.json',
     );

@@ -74,16 +74,35 @@ class PredictWithGivenLocation extends HookWidget {
             ),
             ElevatedButton(
               onPressed: () async {
-                if (formKey.currentState?.validate() != true) return;
-                final lat = double.parse(latController.text);
-                final lng = double.parse(lngController.text);
-                final limit = int.parse(limitController.text);
-                final predictedResult = await _predictor.predict(
-                  lat,
-                  lng,
-                  limit: limit,
-                );
-                predictedLocations.value = predictedResult;
+                final minLat = 17.9;
+                final minLng = 102.5;
+                final maxLat = 18.0;
+                final maxLng = 102.7;
+
+                final boundingBoxResults = await _predictor
+                    .getLocationsInBoundingBox(minLat, minLng, maxLat, maxLng);
+                if (boundingBoxResults.isNotEmpty) {
+                  print('Locations within the specified bounding box:');
+                  for (final location in boundingBoxResults) {
+                    print(
+                      '${location.province}, ${location.district}, ${location.village} (${location.latitude}, ${location.longitude}) \n',
+                    );
+                  }
+                } else {
+                  print(
+                    'No locations found within the specified bounding box.',
+                  );
+                }
+                // if (formKey.currentState?.validate() != true) return;
+                // final lat = double.parse(latController.text);
+                // final lng = double.parse(lngController.text);
+                // final limit = int.parse(limitController.text);
+                // final predictedResult = await _predictor.predict(
+                //   lat,
+                //   lng,
+                //   limit: limit,
+                // );
+                // predictedLocations.value = predictedResult;
               },
               child: Text("Predict location"),
             ),
