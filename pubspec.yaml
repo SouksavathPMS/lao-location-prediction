@@ -24,6 +24,7 @@ flutter:
     - assets/default_data.json
     - assets/cells/
     - assets/images/qr.jpg
+    - assets/images/example.gif
 
 
   
