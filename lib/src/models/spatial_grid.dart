@@ -58,7 +58,7 @@ class SpatialGrid {
 
     // For demonstration, we'll load a test dataset
     final String jsonData = await rootBundle.loadString(
-      'packages/lao_location_prediction/assets/test_data.json',
+      'packages/lao_location_prediction/assets/default_data.json',
     );
     final List<dynamic> locations = jsonDecode(jsonData);
 
@@ -361,16 +361,3 @@ class SpatialGrid {
     return degrees * pi / 180;
   }
 }
-
-
-// Example usage in a project:
-// 
-// Future<void> main() async {
-//   WidgetsFlutterBinding.ensureInitialized();
-//   
-//   final predictor = LocationPredictor();
-//   await predictor.initialize();
-//   
-//   final results = await predictor.predict(18.52298995, 102.76364992);
-//   print('Nearest locations: ${results.map((r) => r.village).join(', ')}');
-// }

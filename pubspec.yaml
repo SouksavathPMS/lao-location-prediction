@@ -21,6 +21,7 @@ flutter:
     assets:
     - assets/lao_places.json
     - assets/grid_metadata.json
+    - assets/default_data.json
     - assets/cells/
 
 
