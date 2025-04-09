@@ -1,0 +1,10 @@
+{
+  "min_lat": 13.93824063,
+  "min_lng": 100.0890119,
+  "max_lat": 22.44057616,
+  "max_lng": 107.61953604,
+  "grid_size_km": 10.0,
+  "cell_width_degrees": 0.089,
+  "cell_height_degrees": 0.089,
+  "total_features": 8499
+}
