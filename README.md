@@ -216,8 +216,11 @@ The `lao_location_prediction` package initializes its spatial grid and location 
 If you find this `lao_location_prediction` package helpful and would like to support its development and maintenance, you can buy me a coffee! Your support is greatly appreciated.
 
 
+
 **Scan the QR Code:**
+
 ![QR](https://i.postimg.cc/1t9FNN4C/qr.jpg)
+
 
 
 Thank you for your support! 🙏

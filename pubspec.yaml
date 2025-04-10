@@ -1,6 +1,6 @@
 name: lao_location_prediction
 description: "A flutter package that predicts Laos locations"
-version: 0.0.2
+version: 0.0.3
 repository: https://github.com/SouksavathPMS/lao-location-prediction
 issue_tracker: https://github.com/SouksavathPMS/lao-location-prediction/issues
 
@@ -21,12 +21,9 @@ dev_dependencies:
 
 flutter:
     assets:
-    - assets/lao_places.json
     - assets/grid_metadata.json
     - assets/default_data.json
     - assets/cells/
-    - assets/images/qr.jpg
-    - assets/images/example.gif
 
 example: example/main.dart
 

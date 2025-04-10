@@ -1,4 +1,7 @@
 
+## 0.0.3
+* Remove unnecessary file to reduce package size
+
 ## 0.0.2
 * Update the publisher 
 * Update Changelog file
