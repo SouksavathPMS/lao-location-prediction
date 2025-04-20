@@ -1,3 +1,7 @@
+## 0.0.4
+* Add license usage information
+* Add more detail to the description
+* Providing good documentation for libraries
 
 ## 0.0.3
 * Remove unnecessary file to reduce package size

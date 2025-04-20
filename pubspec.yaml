@@ -1,8 +1,10 @@
 name: lao_location_prediction
-description: "A flutter package that predicts Laos locations"
-version: 0.0.3
+description: "lao_location_prediction is a robust Dart package designed to provide fast and accurate location-based queries specifically for locations within the Lao People's Democratic Republic. Leveraging a spatial grid, this package enables developers to easily find nearby places, search within geographical boundaries, and look up locations by name, all optimized for the context of Laos."
+version: 0.0.4
+homepage: https://github.com/SouksavathPMS/lao-location-prediction
 repository: https://github.com/SouksavathPMS/lao-location-prediction
 issue_tracker: https://github.com/SouksavathPMS/lao-location-prediction/issues
+license: MIT
 
 
 environment:
@@ -25,7 +27,7 @@ flutter:
     - assets/default_data.json
     - assets/cells/
 
-example: example/main.dart
+example: example/lib/main.dart
 
 
   
