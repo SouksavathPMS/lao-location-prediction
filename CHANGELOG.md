@@ -1,3 +1,6 @@
+## 0.0.5
+* **Description:** Updated package description for clarity and conciseness.
+
 ## 0.0.4
 * Add license usage information
 * Add more detail to the description
